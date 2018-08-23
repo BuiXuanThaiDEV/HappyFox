@@ -12,8 +12,7 @@ class DataMysql {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             connect1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/test");
-            String query = "insert into user_login_hf (`username`,`password`,first_name,last_name,age,email)" +
-                    "value (?,?,?,?,?,?)";
+            String query = "insert into user_login_hf (`username`,`password`,first_name,last_name,age,email) value (?,?,?,?,?,?)";
             prepStmt = connect1.prepareStatement(query);
             prepStmt.setString(1, username1);
             prepStmt.setString(2,password1);
