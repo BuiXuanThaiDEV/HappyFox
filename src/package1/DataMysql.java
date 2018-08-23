@@ -10,6 +10,7 @@ class DataMysql {
         Connection connect1 = null;
         PreparedStatement prepStmt =null;
         try{
+            // Feature login
             Class.forName("com.mysql.cj.jdbc.Driver");
             connect1 = DriverManager.getConnection("jdbc:mysql://localhost:3306/test");
             String query = "insert into user_login_hf (`username`,`password`,first_name,last_name,age,email) value (?,?,?,?,?,?)";
