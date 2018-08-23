@@ -1,0 +1,71 @@
+body{
+    background-color:yellow;
+}
+#logo {
+    text-align:center;
+    background-color:#FFFF00;
+}
+#logo img{
+    padding-top:1px;
+}
+#name-website {
+    padding-top:15px;
+    display:block;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+#input-email{
+    text-align:center;
+    padding-top:8px;
+    height:35px;
+}
+#input-password{
+    text-align:center;
+    padding-top:8px;
+    height:35px;
+}
+.input {
+    box-sizing:border-box;
+    height:35px;
+    line-height:35px;
+    width:20%;
+    box-shadow:
+            0 0 0 0.15rem rgba(0,123,255,0.25);
+    border-color:#80bdff;
+    -moz-border-radius: 7px;
+
+    padding-left:15px;
+}
+#check-box{
+    box-sizing:border-box;
+    padding-top:14px;
+    font-size:17px;
+    text-align:center;
+    cursor:pointer;
+}
+#button-login{
+    display:block;
+    margin-top:20px;
+}
+#button{
+    background-color:#007bff;
+    width:20%;
+    height:40px;
+    -moz-border-darius:10px;
+
+    color:white;
+    text-decoration:none;
+    cursor:pointer;
+}
+#last-text{
+    color:#333;
+    margin-top:20px;
+}
+
+#note-incorrect{
+    color: black;
+    border: 1px solid red;
+    margin-left: 10px;
+    padding: 5px;
+}
